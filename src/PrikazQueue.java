@@ -1,5 +1,3 @@
-package Dispatcher;
-
 import Dispatcher.Prikazy.Prikaz;
 
 /**

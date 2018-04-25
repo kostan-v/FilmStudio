@@ -1,6 +1,3 @@
-package ScenarParsing;
-
-
 /**
  * @author User
  * @version 1.0

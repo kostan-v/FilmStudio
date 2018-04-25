@@ -18,8 +18,8 @@ public class NatacaniaIterator extends Iterator {
 		return null;
 	}
 
-	public maDalsi: boolean maDalsi(){
-		return null;
+	public boolean maDalsi(){
+		return false;
 	}
 
 	public Object prvy(){

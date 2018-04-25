@@ -14,21 +14,13 @@ public class NatacanieRepository implements Repository {
 	public void finalize() throws Throwable {
 
 	}
-	public Natacanie vytvorNatacanie(){
+
+	@Override
+	public T pridaj(T entita) {
 		return null;
 	}
 
-	public Natacanie upravNatacanie(){
-		return null;
-	}
 
-	public vymazNatacanie(){
-
-	}
-
-	public Natacanie ziskajNatacanie(){
-		return null;
-	}
 
 	/**
 	 * 
@@ -50,15 +42,20 @@ public class NatacanieRepository implements Repository {
 	 * 
 	 * @param polozka
 	 */
-	public void vymaz(T polozka){
+	public T vymaz(T polozka){
 
+	}
+
+	@Override
+	public T ziskaj(T specifikacia) {
+		return null;
 	}
 
 	/**
 	 * 
 	 * @param specifikacia
 	 */
-	public T ziskaj(Specifikacia specifikacia){
+	public T ziskaj(String specifikacia){
 		return null;
 	}
 }//end NatacanieRepository

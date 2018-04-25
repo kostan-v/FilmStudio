@@ -18,11 +18,11 @@ public class OsobnyProdukcnyZoznamCreator extends ProdukcnyZoznamCreator {
 	 * 
 	 * @param specifikacia
 	 */
-	public ProdukcnýZoznam vytvorProdukcnyZoznam(String specifikacia){
+	public ProdukcnyZoznam vytvorProdukcnyZoznam(String specifikacia){
 		return null;
 	}
 
-	public List<ProdukcnýZoznam> vytvorProdukcneZoznamy(){
+	public List<ProdukcnyZoznam> vytvorProdukcneZoznamy(){
 		return null;
 	}
 }//end OsobnyProdukcnyZoznamCreator

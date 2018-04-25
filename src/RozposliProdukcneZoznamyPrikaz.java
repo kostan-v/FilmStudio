@@ -1,6 +1,3 @@
-package Dispatcher.Prikazy;
-
-
 /**
  * @author User
  * @version 1.0

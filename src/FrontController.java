@@ -1,6 +1,3 @@
-package Dispatcher;
-
-
 /**
  * @author kostan-v
  * @version 1.0
@@ -8,7 +5,7 @@ package Dispatcher;
  */
 public class FrontController {
 
-	private Dispatcher dispatcher;
+
 	public PoziadavkaDispatcher m_PoziadavkaDispatcher;
 
 	public FrontController(){
@@ -26,7 +23,7 @@ public class FrontController {
 
 	}
 
-	public autentifikujPouzivatela(){
+	public void autentifikujPouzivatela(){
 
 	}
 }//end FrontController

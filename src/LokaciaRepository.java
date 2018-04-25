@@ -14,6 +14,12 @@ public class LokaciaRepository implements Repository {
 	public void finalize() throws Throwable {
 
 	}
+
+	@Override
+	public T pridaj(T entita) {
+		return null;
+	}
+
 	/**
 	 * 
 	 * @param polozka
@@ -31,18 +37,24 @@ public class LokaciaRepository implements Repository {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param polozka
 	 */
-	public void vymaz(T polozka){
+	public T vymaz(T polozka){
 
+		return polozka;
+	}
+
+	@Override
+	public T ziskaj(T specifikacia) {
+		return null;
 	}
 
 	/**
 	 * 
 	 * @param specifikacia
 	 */
-	public T ziskaj(Specifikacia specifikacia){
+	public T ziskaj(String specifikacia){
 		return null;
 	}
 }//end LokaciaRepository

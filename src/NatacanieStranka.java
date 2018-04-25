@@ -16,19 +16,19 @@ public class NatacanieStranka {
 	public void finalize() throws Throwable {
 
 	}
-	public zobrazSa(){
+	public void zobrazSa(){
 
 	}
 
-	public zobrazPodrobnostiNatacania(){
+	public void zobrazPodrobnostiNatacania(){
 
 	}
 
-	public vymazNatacanie(){
+	public void vymazNatacanie(){
 
 	}
 
-	private zobrazPotvrdenieVymazania(){
+	private void zobrazPotvrdenieVymazania(){
 
 	}
 }//end NatacanieStranka

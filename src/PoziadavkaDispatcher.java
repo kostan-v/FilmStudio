@@ -1,6 +1,3 @@
-package Dispatcher;
-
-
 /**
  * @author Dano
  * @version 1.0
